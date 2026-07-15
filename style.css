@@ -89,12 +89,16 @@ body {
 
 .headline h1 { 
   font-size: 3.2rem; 
+  width: 80%;
+  margin-left: 3rem;
 } 
 
 .headline h2 { 
   font-size: 1.6rem; 
   font-weight: 400; 
   margin-top: -7rem; 
+  width: 80%;
+  margin-left:3rem;
 } 
 
 .headline a { 
@@ -394,19 +398,22 @@ body {
   }
 
   .headline h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top:3rem;
+    margin-left: 0;
   }
 
+
   .headline h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 0;
     margin-bottom: 2rem;
+    margin-left: 0;
   }
 
   .headline a {
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .groupon-link {
