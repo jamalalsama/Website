@@ -167,10 +167,10 @@ body {
   text-decoration: none; 
   position: relative; 
   cursor: pointer; 
-  width: 16rem; 
+  width: 20rem; 
   height: 3rem; 
-  font-size: 1.5rem; 
-  font-weight: 500; 
+  font-size: 1.4rem; 
+  font-weight: 700; 
   text-align: center; 
   display: inline-flex; 
   align-items: center; 
@@ -395,15 +395,18 @@ body {
 
   .headline h1 {
     font-size: 2rem;
+    margin-top:3rem;
   }
 
   .headline h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 0;
+    margin-bottom: 2rem;
   }
 
   .headline a {
     margin-bottom: 0;
+    font-size: 1.1rem;
   }
 
   .groupon-link {
@@ -426,6 +429,8 @@ body {
 
   .download-button {
     display: inline-flex;
+    font-size: 1.1rem;
+    width: 16rem;
   }
 
   /* ── CONTACT: stacked vertical ── */
@@ -459,10 +464,17 @@ body {
   .formals {
     margin: 0;
     text-align: center;
+
+  }
+  .formals a {
+    font-size: 1.1rem;
   }
 
   /* ── FOOTER ── */
   .footer {
     margin-top: 0;
+  }
+  .footer p {
+    font-size:0.9em;
   }
 }
